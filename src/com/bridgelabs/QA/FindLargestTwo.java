@@ -10,12 +10,12 @@ public class FindLargestTwo {
             int b = scanner.nextInt();
             int c = scanner.nextInt();
             if(a < b && a < c)
-                System.out.println(b+" & "+c);
+                System.out.println("First two largest numbers are "+b+" & "+c);
             else if (b < a && b < c) {
-                System.out.println(a+" & "+c);
+                System.out.println("First two largest numbers are "+a+" & "+c);
             }
             else
-                System.out.println(a+" & "+b);
+                System.out.println("First two largest numbers are "+a+" & "+b);
         }
 
         public static void main(String[] args) {
